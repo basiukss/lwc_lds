@@ -1,0 +1,27 @@
+<template>    
+    <lightning-card title={objectApiName}>        
+        <div class="slds-m-around_medium">
+            <span>{recordId}</span><br/>
+            <lightning-record-view-form
+                object-api-name={objectApiName}
+                record-id={recordId}
+            >
+                <lightning-output-field
+                    field-name="AccountId"
+                ></lightning-output-field>
+                <lightning-output-field
+                    field-name="Name"
+                ></lightning-output-field>
+                <lightning-output-field
+                    field-name="Title"
+                ></lightning-output-field>
+                <lightning-output-field
+                    field-name="Phone"
+                ></lightning-output-field>
+                <lightning-output-field
+                    field-name="Email"
+                ></lightning-output-field>
+            </lightning-record-view-form>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,10 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction"
+access="global">
+<aura:attribute name="sObjectName" type="String" />
+    <div  class='slds-card'>
+        <span>Aura</span><br/>
+        <b>This is recordID {!v.recordId} </b><br/>
+        <b>This is myRecordID {!v.myRecordID} </b><br/>
+        <b>This is SObjectName {!v.sObjectName} </b><br/>        
+    </div>
+</aura:component>	
